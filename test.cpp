@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 int main()
 {
 
@@ -8,5 +9,5 @@ int main()
     {
         v.push_back(i);
     }
-    cout << *v.end();
+    cout << v.size();
 }
